@@ -9,10 +9,6 @@ body {
   color: #666;
 }
 
-.videoBox {
-  margin-top: -100px;
-}
-
 h1, h2, h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -47,51 +43,39 @@ hr {
 
 header {
   background-color: #999;
-  background-image: url(img/background.jpg);
+  background-image: url(./background.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
   text-align: center;
   height: 400px;
  
 }
 
-.header {
-  position: absolute;
-  z-index: 2;
-  margin-top: 200px;
-  left: 50%;
-}
-
-.header h1 {
+header h1 {
   color: white;
-  font-size: 4em;
+  font-size: 2em;
   margin: 0;
   letter-spacing: 1px;
   opacity: 1;
-  text-shadow: 2px 4px 0 rgba(0,0,0, 0.5);
+  text-shadow: 0 3px 0 rgba(0,0,0, 0.5);
   position: relative;
-  text-align: center;
   top: 370px;
   font-weight: 700;
-  left: -50%;
 }
 
-.header p {
-  color: #ddd;
-  text-shadow: 1px 2px 0 rgba(0,0,0, 0.5);
-  font-size: 1.4em;
+header p {
+  color: #fff;
+  font-size: 1.1em;
   padding-bottom: 1.3em;
   padding-top: .5em;
   opacity: .9;
   position: relative;
   top: 360px;
-  left: -50%;
-  font-style: italic;
 }
 
 section h1 {
@@ -122,7 +106,7 @@ footer hr {
 }
 
 .pageLink {
-  color: #66F;
+  color: #666;
 }
 
 pageLink:focus,
