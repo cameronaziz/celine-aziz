@@ -9,6 +9,10 @@ body {
   color: #666;
 }
 
+.videoBox {
+  margin-top: -100px;
+}
+
 h1, h2, h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
