@@ -64,7 +64,7 @@ header h1 {
   opacity: 1;
   text-shadow: 0 3px 0 rgba(0,0,0, 0.5);
   position: relative;
-  top: 370px;
+  top: 340px;
   font-weight: 700;
 }
 
@@ -106,7 +106,7 @@ footer hr {
 }
 
 .pageLink {
-  color: #666;
+  color: #66D;
 }
 
 pageLink:focus,
