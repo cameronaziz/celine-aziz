@@ -65,24 +65,29 @@ header {
 
 .header h1 {
   color: white;
-  font-size: 2em;
+  font-size: 4em;
   margin: 0;
   letter-spacing: 1px;
   opacity: 1;
-  text-shadow: 0 3px 0 rgba(0,0,0, 0.5);
+  text-shadow: 2px 4px 0 rgba(0,0,0, 0.5);
   position: relative;
+  text-align: center;
   top: 370px;
   font-weight: 700;
+  left: -50%;
 }
 
 .header p {
-  color: #fff;
-  font-size: 1.1em;
+  color: #ddd;
+  text-shadow: 1px 2px 0 rgba(0,0,0, 0.5);
+  font-size: 1.4em;
   padding-bottom: 1.3em;
   padding-top: .5em;
   opacity: .9;
   position: relative;
   top: 360px;
+  left: -50%;
+  font-style: italic;
 }
 
 section h1 {
